@@ -122,186 +122,57 @@
   background-color:var(--windowbackground);
 }
 
+<style>
+    .title1, .title2, .title3, .title4, .title5, .title6, .title7 {
+        text-align: center;
+        font-weight: bold;
+    }
+    .text1, .text2, .text3, .text4, .text5, .text6, .text7 {
+        text-align: center;
+    }
+    .text1 a, .text2 a, .text3 a, .text4 a, .text5 a, .text6 a, .text7 a {
+        display: inline-block;
+        margin: 5px;
+    }
+</style>
 
-.title1{
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
-  width:170px;
-  text-align: center;
-  position: relative;
-  margin-top: -15px;
-}
+<div class="title1">anime/media</div>
+<div class="text1">
+    <a href="https://animebytes.tv/">animebytes</a>
+    <a href="https://plex.tv/">plex</a>
+    <a href="https://www.youtube.com">youtube</a>
+    <a href="https://www.twitch.tv/">twitch</a>
+</div>
 
-.title2{
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
-  width:220px;
-  text-align: center;
-  position: relative;
-  margin-top: 15px;
+<div class="title2">social</div>    
+<div class="text2">
+    <a href="https://boards.4chan.org/w/">/w/</a>
+    <a href="https://boards.4chan.org/wg/">/wg/</a>
+    <a href="https://boards.4channel.org/g/">/g/</a>
+    <a href="https://boards.4chan.org/pol/">/pol/</a>
+    <a href="https://www.patreon.com/home">patreon</a>
+    <a href="https://www.twitter.com">twitter</a>
+    <a href="https://www.reddit.com">reddit</a>
+</div>
 
-  }
+<div class="title3">marketplaces</div>
+<div class="text3">
+    <a href="https://www.ebay.com/">ebay</a>
+    <a href="https://www.etsy.com">etsy</a>
+    <a href="https://buff.163.com/">buff163</a>
+    <a href="https://www.cs.deals/">cs.deals</a>
+    <a href="https://www.amazon.com/">amazon</a>
+    <a href="https://shopgoodwill.com/home">goodwill</a>
+</div>
 
-.title3{
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
-  width:280px;
-  text-align: center;
-  position: relative;
-  margin-top: 17px;
+<div class="title4">mail/search engines</div>
+<div class="text4">
+    <a href="https://outlook.live.com/owa/">outlook</a>
+    <a href="https://protonmail.com/">protonmail</a>
+    <a href="https://searx.xyz/">searX</a>
+    <a href="https://www.startpage.com/">startpage</a>
+    <a href="https://yandex.com/">yandex</a>
+</div>
 
-  }
-
-.title4{
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
-  width:320px;
-  text-align: center;
-  position: relative;
-  margin-top: 20px;
-
-  }
-
-  .title5{
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
-  width:750px;
-  height: -20px;
-  text-align: center;
-  position: relative;
-  margin-top: -20px;
-
-  }
-
- .title6{
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
-  width: 750px;
-  text-align: right;
-  position: relative;
-  margin-top: px;
-
-  }
-
-.title7{
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
-  width:750px;
-  text-align: center;
-  position: relative;
-  margin-top: 20px;
-
-  }
-
-.text1{
-  font-size: 15px;
-  width:170px;
-  position:relative;
-  text-align: center;
-  font-weight: lighter;
-  margin-top: -2px;
-}
-
-.text2{
-  font-size: 15px;
-  width:220px;
-  position:relative;
-  text-align: center;
-  font-weight: normal;
-  margin-top: -1px;
-}
-
-.text3{
-  font-size: 15px;
-  width:280px;
-  position:relative;
-  text-align: center;
-  font-weight: lighter;
-  margin-top: 5px;
-}
-
-.text4{
-  font-size: 15px;
-  width:200px;
-  position:relative;
-  text-align: center;
-  font-weight: lighter;
-  margin-top: 5px;
-}
-
-.text5{
-  font-size: 15px;
-  width:750px;
-  position:relative;
-  text-align: center;
-  font-weight: lighter;
-  margin-top: 5px;
-}
-
-.text6{
-  font-size: var(--text5fontsize);
-  width:200px;
-  position:relative;
-  text-align: center;
-  font-weight: lighter;
-  margin-top: 5px;
-
-}
-
-.text7{
-  font-size: var(--text5fontsize);
-  width:200px;
-  position:relative;
-  text-align: center;
-  font-weight: lighter;
-  margin-top: 5px;
-
-}
-.pixeloverlay{
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  pointer-events: none;
-  background: repeating-linear-gradient(90deg,rgba(0, 0, 255, var(--pixeloverlay-itensity)),rgba(0, 0, 255, var(--pixeloverlay-itensity)) calc(var(--pixeloverlay-resolution)*1px),rgba(255, 0, 0, var(--pixeloverlay-itensity)) calc(var(--pixeloverlay-resolution)*1px),rgba(255, 0, 0, var(--pixeloverlay-itensity)) calc(var(--pixeloverlay-resolution)*2px),rgba(0, 255, 0, var(--pixeloverlay-itensity)) calc(var(--pixeloverlay-resolution)*2px),rgba(0, 255, 0, var(--pixeloverlay-itensity)) calc(var(--pixeloverlay-resolution)*3px)),
-  repeating-linear-gradient(0deg,rgba(0, 0, 0, var(--pixeloverlay-itensity)),rgba(0, 0, 0, var(--pixeloverlay-itensity)) calc(var(--pixeloverlay-resolution)*1px), rgba(255, 255, 255, 0) 1px,rgba(255, 255, 255, 0) calc(var(--pixeloverlay-resolution)*3px));
-  visibility: var(--pixeloverlay-exists);
-}
-.vignette{
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  pointer-events: none;
-  visibility: var(--vignetteoverlay-exists);
-  background: radial-gradient(transparent,transparent var(--vignetteoverlay-size), rgba(0,0,0,var(--vignetteoverlay-intensity)));
-}
-a{
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 10px;
-  text-decoration: none;
-  color:var(--linktextcolor)
-}
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: w95;
-    color:var(--maintextcolor);
-    position: center;
-    letter-spacing:var(--letterSpace);
-    background: var(--backgroundBorder);
-}
-  @font-face {
-    font-family: "w95";
-    src: url('resources/style/w95fa.woff');
-}
+<div class="title5">coding</div>
+<div class="text5">
